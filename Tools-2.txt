@@ -1,0 +1,29 @@
+SHAPE MAKER
+https://haikei.app/
+
+FOR SVG
+https://getwaves.io/
+https://svgwave.in/
+https://svgartista.net/
+https://image.online-convert.com/convert-to-svg
+https://editor.method.ac/
+https://picsvg.com/
+
+CSS TRANSFORM & TRANSITION TOOL ONLINE
+https://css-transform.moro.es/
+https://css3gen.com/css-transition/#csstransition
+
+CSS STYLING TOOL
+https://cssgenerator.org/
+
+RADIAL NAV MENU
+https://freefrontend.com/css-circle-menus/
+
+BOX SHADOW EXAMPLES
+https://getcssscan.com/css-box-shadow-examples
+
+BACKGROUND CLIP CODEPEN
+https://codepen.io/Jintos/pen/crlxk
+
+BLEND MODE EXAMPLE
+https://alligator.io/css/exploring-blend-modes/

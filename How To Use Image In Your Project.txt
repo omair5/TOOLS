@@ -1,0 +1,52 @@
+1-highly compressed
+---------------------------------------------
+tinypng.com
+
+
+2-use webp,jp2,jxr formats with fallbacks
+---------------------------------------------
+TO WEBP CONVERTER
+https://cloudconvert.com/png-to-webp
+WEBP ARTICLE
+https://tamalweb.com/compress-images-reactjs
+
+
+3-use picture and srcset
+---------------------------------------------
+<picture>
+        {/* show this image for browsers less than 800px */}
+        <source media='(min-width:800px)' srcset={Img2} />
+        {/* show this image for browsers less than 600px */}
+        <source media='(min-width:600px)' srcset={Img3} />
+        {/* initially show this pic */}
+        <img src={Img1} />
+      </picture>
+
+
+
+4-explicit width and height with object-fit
+---------------------------------------------
+Images should include dimension attributes #
+While the browser loads an image, it does not immediately know the image's dimensions, unless these are explicitly specified. To enable the browser to reserve sufficient space on a page for images, it is recommended that all <img> tags include both width and height attributes. Without dimensions specified, layout shifts can occur, which are more noticeable on pages that take some time to load.
+
+
+5-use aspect ratio to maintain size of an image
+---------------------------------------------
+aspect-ratio:16/9
+
+
+6-use browser level lazy loading <img loading="lazy" />
+---------------------------------------------
+<img src="image.png" loading="lazy" alt="…" width="200" height="200">
+You should avoid setting loading=lazy for any images that are in the first visible viewport.
+
+
+7-jpeg and jpg are the best format use png for high resolution images
+
+
+ARTICLES
+---------------------------------------------
+https://web.dev/defer-non-critical-css/
+https://web.dev/efficiently-load-third-party-javascript/
+https://web.dev/optimize-css-background-images-with-media-queries/
+

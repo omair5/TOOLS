@@ -1,0 +1,66 @@
+REACT USEFUL LIBRARIES
+-----------------------
+react reveal
+react scroll parallax library
+react file pond
+
+
+CSS TEXT EFFECTS
+-------------------
+https://freefrontend.com/css-text-effects/
+https://codepen.io/havardob/pen/WNQwvze
+https://codepen.io/AdamDipinto/pen/EqxaEO
+https://codepen.io/uzcho_/pen/LaPqWJ
+https://codepen.io/cobra_winfrey/pen/YBNMdw
+https://codepen.io/markmead/pen/xympyG
+https://codepen.io/andysanchez-dev/pen/GYPevV
+https://codepen.io/YusukeNakaya/pen/boyOYm
+https://codepen.io/Mansoour/pen/jvyZOr
+https://codepen.io/delpher/pen/rrLWEq
+
+
+GENERATOR FOR LOADERS & 3D TEXT EEFECTS
+----------------------------------------
+https://www.html-code-generator.com/css/snippets/loading-animation
+
+
+ANIMATIONS
+------------
+stroke animations
+writting animations
+linear gradient generator
+
+
+animista.net
+animate.css
+https://keyframes.app/animate/
+you can also install keyframes chrome extension https://www.youtube.com/watch?v=H598jXvQhLw
+
+
+
+CUSTOM BACKGROUND SHAPE MAKER : https://www.shapedivider.app/
+
+CSS Grid Generator: https://cssgrid-generator.netlify.app/
+
+Neumorphism Generator: https://neumorphism.io/#e0e0e0
+
+Glassmorphism Generator: https://glassmorphism.com/    https://ui.glass/generator/
+
+Fancy Border Radius: https://9elements.github.io/fancy-border-radius/
+
+Pre Built Linear Gradient : https://gradienta.io/
+
+Blob Generator : https://angrytools.com/blob-generator/
+
+Blend Mode Generator : https://ilyashubin.github.io/FilterBlend/ 
+  
+Filter Generator : https://cssgenerator.org/filter-css-generator.html     https://www.cssportal.com/css-image-filter-generator/
+
+Transform Generator : https://html-css-js.com/css/generator/transform/  https://cssgenerator.org/transform-css-generator.html
+
+
+DRAW SVG ANIMATIONS
+--------------------
+https://app.svgator.com/#/
+https://svgartista.net/
+
