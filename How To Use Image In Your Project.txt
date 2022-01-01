@@ -13,14 +13,14 @@ https://tamalweb.com/compress-images-reactjs
 
 3-use picture and srcset
 ---------------------------------------------
-<picture>
+	<picture>
         {/* show this image for browsers less than 800px */}
         <source media='(min-width:800px)' srcset={Img2} />
         {/* show this image for browsers less than 600px */}
         <source media='(min-width:600px)' srcset={Img3} />
         {/* initially show this pic */}
         <img src={Img1} />
-      </picture>
+	</picture>
 
 
 
