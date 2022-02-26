@@ -8,3 +8,24 @@ SHAPE GENERATOR
 ---------------------
 https://wweb.dev/resources/css-separator-generator/
 https://cssmatic.net/css-curved-background-generator/
+
+LOADERS
+------------------
+https://whirl.netlify.app/
+
+All Online Tools in “One Box”
+----------------------------
+https://10015.io/
+
+MULTI COLOR CSS GRADIENT
+---------------------------
+https://gradienta.io/gleaming-fate
+https://cssgradient.io/gradient-backgrounds/
+
+SAMPLE LOGOS
+------------------------
+https://logoipsum.com/
+
+TEMPLATES
+----------------
+https://html5up.net/
