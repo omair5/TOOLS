@@ -1,0 +1,12 @@
+e.target.value.match(/^[a-zA-Z]*$/)            FOR TEXTBOX
+
+e.target.value.match(/^[a-zA-Z0-9,.'" ]*$/)    FOR ALPHANUMERIC
+
+e.target.value.match(/^\d*\.?\d*$/)            FOR DECIMAL
+
+e.target.value.match(/^[0-9]*$/) 	       FOR NUMBERS
+
+e.target.value.match(/^[a-zA-Z0-9-]+$/)        FOR ALPHA NUMERIC WITH DASHES
+
+(/^(?=[a-zA-Z0-9,]*[()-][a-zA-Z0-9,]*$)[a-zA-Z0-9,()-]+$/)  FOR NON REPEATED SPECIAL CHARACTERS
+
