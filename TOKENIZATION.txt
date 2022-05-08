@@ -1,0 +1,18 @@
+1-local storage
+2-cookies
+3-hhtp only cookie
+4-local code state  (most secure)
+5-access token & refresh token setup (most secure)
+
+https://www.youtube.com/watch?v=iD49_NIQ-R4  (theory)
+
+https://www.youtube.com/watch?v=25GS0MLT8JU  (implementation)
+
+
+https://www.youtube.com/watch?v=nI8PYZNFtac
+
+https://www.youtube.com/watch?v=VJLSaq1Ll0U
+
+
+
+https://www.youtube.com/watch?v=nI8PYZNFtac (react login authentication)

@@ -1,0 +1,10 @@
+https://betterprogramming.pub/how-to-use-axios-in-an-optimized-and-scalable-way-with-react-c56fa632e088
+
+
+https://github.com/axios/axios
+
+https://rapidapi.com/blog/axios-react-api-tutorial/
+
+https://blog.openreplay.com/integrating-axios-with-react-hooks
+
+https://flaviocopes.com/axios-credentials/

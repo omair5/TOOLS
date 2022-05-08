@@ -10,3 +10,9 @@ e.target.value.match(/^[a-zA-Z0-9-]+$/)        FOR ALPHA NUMERIC WITH DASHES
 
 (/^(?=[a-zA-Z0-9,]*[()-][a-zA-Z0-9,]*$)[a-zA-Z0-9,()-]+$/)  FOR NON REPEATED SPECIAL CHARACTERS
 
+^[a-zA-Z0-9\-.(),\\%/& ]*  FOR FORWARD AND BACK SLASH
+
+
+https://www.freeformatter.com/regex-tester.html   (REGEX TESTOR) ^[a-zA-Z0-9\-.(),\\%/]*
+
+https://dev.to/coderpad/the-complete-guide-to-regular-expressions-regex-1m6

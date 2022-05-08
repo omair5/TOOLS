@@ -8,6 +8,7 @@ SHAPE GENERATOR
 ---------------------
 https://wweb.dev/resources/css-separator-generator/
 https://cssmatic.net/css-curved-background-generator/
+https://madza.hashnode.dev/12-awesome-shape-generators-for-your-web-projects
 
 LOADERS
 ------------------
