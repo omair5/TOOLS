@@ -1,0 +1,45 @@
+what is the role for this position
+ask about onboarding process
+
+conditionally create a key in object
+
+delete a key from object=>delete,reduce,spread,by making a function,pass a object to function,dynamic key
+
+seal and freeze
+
+reduce
+  // sum
+  // average
+  // double the array values
+  // filter numbers that dont need to be double
+  // flatten an array
+  // filter duplicates
+  // count identities
+  //with reduce /foreach
+  //https://www.freecodecamp.org/news/reduce-f47a7da511a9/
+
+does reduce,map,slice and filter mutates the original aaray 
+
+useReducer is useful for handling more complex state easily as compared to useState
+useRef
+useMemo
+useCallback
+
+array method which mutates it (splice,push,pop)
+
+spread operator
+
+myarray.push(2) it will return the length of that array
+
+tokenization techniques for frontend
+
+difference between FOR and FOREACH loop? (for can be used for different things but forEach can only be used for Arrays)
+
+guard clasues instead of nested if else
+
+difference between import and require (answer can me dynamic importing possible with imports)
+
+difference between useEffect & useLayoutEffect
+
+defer vs async
+

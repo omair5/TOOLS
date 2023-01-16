@@ -1,0 +1,37 @@
+https://www.jsv9000.app/
+https://babeljs.io/repl#?browsers=&build=&builtIns=false&corejs=3.21&spec=false&loose=false&code_lz=DwEwlgbgfAEgpgGwQewAQHdkCcEmAenGgG4AoUSVZAOwGEEwBjAawF4BvACgEpWpGaAZ2QI4AOhQBzTgHIwqAIYBbVIwYs4IGdwC-_dc1RK4BIlCA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=true&fileSize=false&timeTravel=false&sourceType=module&lineWrap=false&presets=react&prettier=true&targets=&version=7.19.5&externalPlugins=&assumptions=%7B%7D
+
+how react was build before cra
+
+react ui rendering process
+
+how react work under the hood
+
+diffing
+reconcilation
+
+JSX
+
+create elememt
+
+react elements =>Dom elements
+
+2 VDOM theory
+
+children pattern
+
+react perfomance
+
+react ui rendering
+https://kentcdodds.com/blog/what-is-jsx
+
+https://kentcdodds.com/blog/optimize-react-re-renders
+
+https://babeljs.io/repl#?browsers=&build=&builtIns=false&corejs=3.21&spec=false&loose=false&code_lz=DwEwlgbgfAEgpgGwQewAQHdkCcEmAenGgG4AoYABygGsQBjagOzoKqA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=true&fileSize=false&timeTravel=false&sourceType=module&lineWrap=false&presets=react&prettier=true&targets=&version=7.19.5&externalPlugins=&assumptions=%7B%7D
+https://codesandbox.io/s/react-codesandbox-g9mt5
+
+https://codesandbox.io/s/react-codesandbox-o9e9f
+
+herrington video of useState sync or async
+
+ref or state in ueEffectssssss

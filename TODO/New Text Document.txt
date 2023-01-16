@@ -1,0 +1,153 @@
+setState sync or async
+closures
+hoisting
+let and const
+promise and async await
+state and props
+children pattern
+state management
+why i cant access state just after its updation
+can i use useRef in useEffect array
+type coercion
+prototype
+this
+see black dairy
+pure functions
+problem solving
+currying
+generators
+reconcilation
+diffing
+stale closures
+getter setter
+bubling
+throtling / debouncing
+best practices in dairy
+TODO IN TOOLS
+Pushing to an array declared as a const?
+
+-------------------------------------------------------------------------------
+
+
+
+package.json package lock.json
+flexbox
+how redux works
+what is pure functions
+react 18
+react query
+
+PROBLEM SOLVING
+LINKEDIN CODE SNIPPETS
+
+difference between state and prop 
+
+promises
+
+
+count vowels in a string
+find mary and army are anagrams
+111223(312213)
+
+git push for tools
+git tagging and automation workflows
+versioning
+
+--------------------------------------------------------------------------
+create a project using vite
+react query
+react hook form
+state management best techniques
+how to handle a very large project in formik because of its re rendering
+next.js
+do formik refactoring
+how to make formik perfomance better in large forms
+--------------------------------------------------------------------------
+
+
+TOMORROW
+------------
+REACT CHILDREN
+let and const (push)
+
+
+after
+---------
+promises
+
+after
+--------
+redux
+redux toolkit
+pure functions
+
+
+
+
+
+GETTER SETTER
+DYNAMIC IMPORTS
+ALL AAAAA's
+CUSTOM HOOKS
+CLOSURE/stale
+clean code
+add key in obj
+let & const example
+images from mobile
+REACT 18
+react vs react dom
+package.json vs lock
+JSX
+splice picture in phone
+tech to learn on 10 days basis
+promises
+react
+GENERATORS
+
+
+pure function in redux
+
+let const var exmaple in screenshot)
+creating object value technique in screenshot
+=-=======================---=-=-=-=-=-=-=-
+
+
+
+
+debounce and throtling
+event bubbling 
+
+
+
+
+
+
+
+
+flexbox
+
+height (auto)
+
+
+delete algo of object (rather than delete keyword)
+
+
+
+
+
+
+
+
+type coercion
+What does (123[‘toString’].length + 123) Print Out in JavaScript?
+ESLINT.rc configuration file
+normal function and arrow function differecne
+how to minimize react re rendering
+https://www.youtube.com/watch?v=CKAn5dCK6RE (PORTFOLIO PROJECT)
+react 18
+https://www.youtube.com/watch?v=7VAI73roXaY
+screenshots from mobile
+https://www.youtube.com/watch?v=P5VnLiGUmtY (E COMMERCE SITE)
+https://www.youtube.com/watch?v=K7vHoUwClaM (DASHBOARD)
+https://www.youtube.com/watch?v=2AFZDxg3Aww (animated website)
+REACT QUERY

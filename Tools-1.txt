@@ -39,7 +39,11 @@ you can also install keyframes chrome extension https://www.youtube.com/watch?v=
 
 
 
-CUSTOM BACKGROUND SHAPE MAKER : https://www.shapedivider.app/
+CUSTOM BACKGROUND SHAPE MAKER
+---------------------------------
+https://www.shapedivider.app/x
+https://bgjar.com/animated-shape
+https://wweb.dev/resources/animated-css-background-generator/
 
 CSS Grid Generator: https://cssgrid-generator.netlify.app/
 

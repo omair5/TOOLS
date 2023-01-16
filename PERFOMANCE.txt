@@ -1,0 +1,3 @@
+https://hemdan.hashnode.dev/frontend-system-design-part-2#heading-1-loading-speed
+
+https://www.patterns.dev/posts/preload/

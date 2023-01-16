@@ -1,0 +1,177 @@
+https://www.youtube.com/watch?v=HW5roUF2RLg
+https://www.youtube.com/watch?v=XxXyfkrP298
+https://www.youtube.com/watch?v=AkEnidfZnCU
+===========================================================
+setStatate async
+
+which has precedence ?? useSelector or useEffect
+
+ref or state in ueEffect
+
+role based rendering (screenshot)
+
+jayesh chaudry screenshot for promises
+
+why [] ||'sdjsjd' not eveluates to 'sdjbsd'
+
+?? ||
+0 || 'N/A (it is giving 0 not 'N/A')
+see screenshot pic videos
+
+image in pics of mobile
+
+width:100%
+max-width:410px
+
+debouncing aksahy exmaple
+
+react perfomance article
+
+3 codebases
+https://e-payment.nbp.com.pk/
+
+mutation observer
+
+package.json  / package.lock.json
+
+021 issue in screenshot
+
+DARU EXPLANATION
+component composition pattern with children (create element is not called on children)
+
+reconcilation
+
+defing algorithm
+
+wordpress
+true || false && false      // returns true, because && is executed first
+(true || false) && false    // returns false, because grouping has the highest precedence
+
+react 18
+
+next.js
+
+ 
+
+Digital Asset (Omair/Waqas – I updated the owner details multiple times, but all entries disappear.  I am not sure if the issue is with post or get)
+
+http://52.235.23.107:3000/dashboard/assets/editAsset/1034/asset
+
+ 
+
+Unfortunately I am unable to create beneficiaries as it keeps on saying ‘something went wrong’ and I have no clue what went wrong.  Arsalan when are you uploading your PR.  Please do it asap…this issue has been outstanding since last Thursday and has taken 5 days and the fix is still not in place.  We need to have a serious discussion.
+
+http://52.235.23.107:3000/dashboard/assets/editAsset/1032/beneficiary
+
+
+
+
+
+
+
+
+
+
+=============================================
+1 month for asset as well
+
+daily touch points of almost 1 hour
+
+code refactoring
+
+code review
+
+snyk
+
+ui/ux correction and discussion
+
+u r not paying for task this is for 4 hours part time
+and if you are paying for tasks then this is under paid
+
+bugs can nt be fixed on the same day
+
+you want it fast + accurate + bug free
+
+
+
+
+
+1-disable tabs (done)
+
+2-number formatter (done)
+
+3-pledge toggle (done)
+
+4-pledge recipient (done)
+
+not -attach document flow is missing
+not -asisted transfer service request missing
+transfer management is only available for BENEFICIARY only
+transfer detail is only available for EQUITY SHARE only
+
+
+6-wealth manager
+
+7-auto populated text (done)
+
+8-post request
+
+9-loader redux
+
+10-bank details (done)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1-separate entity for new asset
+2-separate routes for new asset entity
+http://localhost:3000/dashboard/assets/assetListNew
+http://localhost:3000/dashboard/assets/createAsset
+http://localhost:3000/dashboard/assets/editAsset/711/asset
+http://localhost:3000/dashboard/assets/editAsset/644/asset
+3-introduce stepper component
+4-stepper for Asset Creation
+5-state management of stepper
+6-separate routing for every stepper component
+
+get step status from API
+implement next & back button API 
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+
+
+
+https://github.com/Evolving-Intelligence/FLC-Frontend-MVP-1.1/compare/mvp-1.4...asset-step-3-documents?expand=1
+
+https://github.com/Evolving-Intelligence/FLC-Frontend-MVP-1.1

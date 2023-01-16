@@ -1,0 +1,328 @@
+ADRIAN
+HACKER RANK
+NODE JS
+Akshay Saini Videos
+how JS Engine Work
+
+
+REACT QUERY
+dynamic import
+REACT HOOK FORM
+event propagation
+event bubbling
+debouncing
+throtling
+React design pattern
+react re rendering
+how react work under the hood
+react 18
+custom hook
+useref/uesState/useReducer
+JEST
+SQL
+
+REACT PERFOMANCE
+-----------------------
+API optimisations
+Code Bundling
+Dependency optimisation
+Throttling or Debouncing
+React Fragments and styling conventions
+
+
+
+
+https://medium.com/@zong8498/two-try-catch-caused-dive-deep-into-javascript-asynchronous-programming-28cb4ec29890
+
+https://betterprogramming.pub/5-must-know-javascript-features-that-you-might-not-know-cc957f7293fc
+
+https://javascriptpatterns.vercel.app/patterns/performance-patterns/dynamic-import
+
+https://intspirit.medium.com/top-of-js-topics-mostly-failed-by-developers-53397f13eb78
+
+https://intspirit.medium.com/deep-deep-deep-into-promises-8dc72e86487a
+
+https://medium.com/@aamchora/what-is-throttling-in-javascript-b9795daaa2ad
+
+
+
+uselayouteffect fires synchronously while useEffect does not
+
+is promise.all concurrent or parallel
+
+is it better to use seaparte states or just single object as state
+
+
+{...false}  //{}
+[...fasle] // non iterable
+
+type coercion
+
+why useEffect can'nt be triggered by useEffect
+
+async await goes to which context
+
+
+How react ui is paint
+
+Why are React props immutable?
+
+does using react component composition give perfomance benefit??
+
+create element AND children OR RE RENDER
+
+(!  !!)
+
+this
+
+closures
+
+lexical scope
+
+database
+
+stale closures
+
+react perfomance
+
+how react work under the hood
+
+setState is sync or async
+
+setTimeout precedence for multiple settimeout
+
+promises
+
+reverse string using for loop
+
+palindrome
+
+===
+cont arr=[1,2,3]
+arr=[2,3,4]       //will it work
+======
+
+setState
+if(state){  //will i get state here
+will do something here
+}
+
+generators works under async await
+
+for loops dont support async events except for of
+
+set Timeout with 0 value
+
+
+function Dog(breed) {
+  this.breed = breed;
+}
+const shibaInu = new Dog('Shiba inu')
+But arrow functions can’t be used as constructors, so you can’t invoke them with new. If you try, you will receive the following error : TypeError: Car is not a constructor
+
+function Dog(color) {
+  this.breed = breed;
+}
+const shibaInu = new Dog('Shiba inu'); // TypeError: Dog is not a constructor
+
+
+
+
+This
+Arrow functions do not have their own this. If you don’t know what the keyword this is, let me explain.
+
+Inside a function, this is an object, referring to the execution context. The value of this object is dynamic, depending on how you invoke the function expression.
+
+Inside an arrow function this always equals the value of the outer environment, it doesn’t define its own execution context.
+
+
+redact defing lgorithm
+
+
+prototype
+
+
+setTimeout(() => {
+      setFormFields(refactoedFields)
+
+      setTimeout(() => {
+        handlePdfDownload(document.getElementById('content'), setpdfLoadingDescription, fileName, fileHeading, itemsInfoHeadings, itemsInfo, heightForCanvas, isNegativeList)
+        setPdfGeneration(false)
+        setFormFields(originalFields)
+      }, 2000)
+    }, 0);
+  }
+
+closures vs stale closure
+===============================================================================
+
+
+gatsby with contentful
+click jacking (skype)
+react ui rendering (youtube)
+webpack changes in reacts
+basic javascript (daily)
+database => one to many / many to one
+jamstack
+whats new in react 18
+testing
+react native
+custom hooks (window resizing)
+react query
+react hook form
+role based authorization
+node js 
+express js
+next js
+shopify
+wordpress
+
+
+can i push value to array assigned with const
+
+
+
+new Promise((resolve,reject)=>{
+setTimeout(()=>{
+resolve('hello')
+},0)
+})
+
+
+
+macro task
+
+micro task
+
+immutability and pure functions.
+
+callback and promise
+
+aysnc await and promise
+
+
+how to compare two arrays are same or not
+
+how redux works with pure function
+
+
+
+let arr=['1'.'2','3']
+let str='1,2,3'
+
+consloge.log(arr==str)
+
+how type coercion is working here
+
+
+CUSTOM Formik hook
+-------------------------
+
+import { wizardFormSubmit, stepIncrement } from "store/actioncreators/wizard";
+import { useDispatch, useSelector } from "react-redux";
+
+const useWizardFormSubmit = () => {
+  const dispatch = useDispatch();
+  const currentStep = useSelector((state) => state.wizard.step);
+
+  const onSubmit = (data) => {
+    dispatch(wizardFormSubmit(data));
+    dispatch(stepIncrement(currentStep + 1));
+  };
+
+  return { onSubmit, currentStep };
+};
+
+export default useWizardFormSubmit;
+
+
+
+closure and set timeout by akshay saini
+
+
+console.log('7*6')
+
+does map create new array
+
+
+console.log([1,2]==[1,2])
+console.log([1,2]===[1,2])
+//false false because of reference equality
+
+
++= (it adds right value to left)  & =+ (it converts to number)
+
+console.log([1,2]+[3,4])
+
+return inside then not working but working inside await
+
+hook can only work inside a Component and other Hooks not in a callback as well
+
+coercion or ||
+
+
+for (let i=0,i<=5,i++)  vs for (let i=0,i<=5,++i)
+
+nested data in obj 
+
+obj.key1.key2 or obj[key1.key2.key3]
+
+
+object and array (order is not important in objects we can destructure any element from any where in the object)
+
+
+can not return from then (should use await)
+
+let mystring='hello world'
+mystring.toUpperCase()
+console.log(mystring.split(' '))     //['hello','world']  not ['HELLO','WORLD']
+
+
+akshay saini videos
+
+cont values=['web','undefined','js',null,false]
+values.filter((values)=>Boolean(value))   X
+values.filter(Boolean) //shorthand
+
+
+var x=10
+var display=function(){
+console.log(x)
+var x=20
+}
+display()    // answer would be undefined because of hoisting concept
+explanation in downloads
+
+does react set all states again one one is setState
+
+packagelock.json
+
+
+stale closure
+
+
+
+ref and forward ref  (parent pass its ref to child)
+
+
+substr and slice
+
+
+custom hook for post and get call
+
+multiple if conditions then else =>will else run or not
+
+[] result???
+
+console.log(10<20<30) true
+console.log(30>20>10) false
+
+multiple setTimeouts at one time how they will work
+
+var a = 2
+
+  function krishan() {
+    console.log('sjhsjd', a)
+    var a = 3
+  }
+  krishan()
