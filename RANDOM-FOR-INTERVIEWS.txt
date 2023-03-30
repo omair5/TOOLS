@@ -1,3 +1,8 @@
+INTERVIEW QUESTIONS
+---------------------
+https://www.youtube.com/watch?v=riloPTtAuAM
+
+
 what is the role for this position
 ask about onboarding process
 
@@ -39,7 +44,30 @@ guard clasues instead of nested if else
 
 difference between import and require (answer can me dynamic importing possible with imports)
 
-difference between useEffect & useLayoutEffect
+difference between useEffect & useLayoutEffect (useLayoutEffect is beneficial when encountering flickering effect)
+
+difference between useState & useReducer (useReducer is basically used for more complex state management)
+
+difference between useMemo & useCallback
 
 defer vs async
 
+delete a key from object without mutating it (spread,reduce)
+
+delete a an object from array without mutating array (filter)
+
+can we use useContext as a alternative to Redux? (yes we can combine useContext with useReducer to make it work like Redux for small applications,but useContext alone cannt be an alternative), Redux is for large projects & Context API for small ones.
+
+what are controlled and uncontrolled compoenents in reacts
+
+what is event bubbling and how to prevent it?
+
+what is event delegation?
+
+what is debouncing?
+
+what is throttling?
+
+difference between forEach and Map? for of and Map? (map will create a new execution context for every callback function so basically it is a bit slow as compared to for of loop)
+
+difference between null and undefined?

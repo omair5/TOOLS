@@ -1,0 +1,336 @@
+callbacks,promises and async await all use for async javascript code handling.
+
+PROMISE
+1-CALLBACK FUNCTION INSIDE PROMISE IS SYNCHORONOUS
+2-Async Await works synchoronously
+3-the async function myFunc is suspended as it encountered the await keyword, the engine jumps out of the async function and continues executing the code in the execution context in which the async function got called: the global execution context in this case! 
+
+PROMISE INTERVIEW QUESTIONS
+----------------------------
+https://www.youtube.com/watch?v=HaJdoFp2OEc
+================================================
+
+
+function main() {
+
+    setTimeout(() => {
+        console.log('hello')
+    }, 6000);
+
+    console.log('world')
+}
+main()
+
+this will print world then hello
+but i have to print it like hello world
+
+async function main() {
+    await new Promise(() => {
+        setTimeout(() => {
+            console.log('hello')
+        }, 6000);
+    })
+    console.log('world')
+}
+main()
+
+
+==============================================
+
+
+obj1 = { name: 'omair' }
+
+obj2 = obj1
+
+obj2.name = 'shayan'
+
+console.log(obj2)
+
+===============================================
+
+
+obj1 = {
+    name: 'omair',
+    national: {
+        country: 'pakistan',
+        city: 'karachi'
+    }
+}
+
+obj2 = { ...obj1 }
+
+obj2.national.country = 'maldives'
+
+console.log(obj1)
+
+
+================================================
+
+
+function f1() {
+  // Some code
+}
+function f2() {
+  f1();
+}
+function f3() {
+  f2();
+}
+f3();
+
+
+===================================================
+
+
+function f1() {
+    console.log('f1');
+}
+
+function f2() {
+    console.log('f2');
+}
+
+function main() {
+    console.log('main');
+    
+    setTimeout(f1, 0);
+    
+    f2();
+}
+
+main();
+
+
+
+===================================================
+
+function f1() {
+    console.log('f1');
+}
+
+function f2() {
+    console.log('f2');
+}
+
+function main() {
+    console.log('main');
+    
+    setTimeout(f1, 0);
+    
+    new Promise((resolve, reject) =>
+        resolve('I am a promise')
+    ).then(resolve => console.log(resolve))
+    
+    f2();
+}
+
+main();
+
+
+================================================
+
+function f1() {
+ console.log('f1');
+}
+
+function f2() { 
+    console.log('f2');
+}
+
+function f3() { 
+    console.log('f3');
+}
+
+function main() {
+  console.log('main');
+
+  setTimeout(f1, 50);
+  setTimeout(f3, 30);
+
+  new Promise((resolve, reject) =>
+    resolve('I am a Promise, right after f1 and f3! Really?')
+  ).then(resolve => console.log(resolve));
+    
+  new Promise((resolve, reject) =>
+    resolve('I am a Promise after Promise!')
+  ).then(resolve => console.log(resolve));
+
+  f2();
+}
+
+main();
+
+
+=========================================
+
+
+let getUser = new Promise(function(resolve, reject) {
+    const user = { 
+        name: 'John Doe', 
+        email: 'jdoe@email.com', 
+        permissions: [ 'db', 'hr', 'dev']
+    };
+    resolve(user);
+});
+
+getUser
+.then(function(user) {
+    console.log(`Got user ${user.name}`);
+    // Let's reject if a dev is having the HR permission
+    if(user.permissions.includes('hr')){
+        throw new Error('You are not allowed to access the HR module.');
+    }
+    // else return as usual
+     return user.email;
+})
+.then(function(email) {
+    console.log(`User email is ${email}`);
+})
+.catch(function(error) {
+    console.error(error)
+});
+
+
+=========================================
+function getSynchronousHi() {
+    return 'Hi';
+}
+
+async function caller() {
+    const messageHi = await getSynchronousHi();
+    console.log(messageHi);
+}
+
+
+caller();
+
+console.log('end')
+
+
+==============================================
+
+var a = 1
+
+var b = 0
+
+while (a <= 3) {
+    a++
+    b += a * 2
+    console.log(b)
+}
+
+
+===============================================
+
+
+for (var x = 0; x < 10; x++) {
+    console.log('inside')
+}
+console.log(x)
+
+
+===============================================
+
+for (let x = 0; x < 10; x++) {
+    console.log('inside')
+}
+console.log(x)
+
+===============================================
+
+for (var index = 0; index < 6; index++) {
+    var inc = ++index
+    console.log(inc)
+}
+
+
+===============================================
+
+function test() {
+    for (var x = 0; x < 4; x++) {
+        console.log('inside')
+    }
+}
+
+test()
+console.log(x)
+
+
+===============================================
+
+var result
+for (var i = 5; i > 0; i--) {
+    result = result + i
+}
+
+console.log(result)
+
+
+===============================================
+
+let name
+console.log(name)
+
+
+===============================================
+
+let a = true
+
+setTimeout(() => {
+    a = false
+}, 2000);
+
+while (true) {
+    console.log('hello')
+}
+
+
+===============================================
+
+
+let promise = new Promise((resolve, reject) => {
+  console.log("Hello");
+  resolve("Promise complete");
+});
+promise.then(result => console.log(result));
+console.log("Bye");
+// Output
+Hello
+Bye
+Promise complete
+
+
+The Javascript engine reads through the promise all the way through followed by the remainder of the code. During this process of executing promise.then(result => console.log(result)), it executes the promise object and it pushes console.log("Hello") onto the call stack, which runs and gets popped off. It then resolves the promise with the result equal to "Promise complete". However, it reads that a .then follows the promise resolution and places that on the callback queue. It then pushes the console.log("Bye") command onto the call stack where it is executed and then popped. Finally, since the call stack is now empty, it pushes the console.log(result) onto the call stack and prints "Promise complete" which uses the result from the executor code.
+
+
+==============================================
+
+
+Promise.resolve().then(function callbackA () {
+  console.log("finish run 1");
+}).then(function callbackB () {
+  console.log("surprisingly this happens after run 2 finishes");
+});
+
+Promise.resolve().then(function callbackC () {
+  console.log("finish run 2");
+})
+
+
+finish run 1
+finish run 2
+surprisingly this happens after run 2 finishes
+Events happen in this order:
+
+The first promise is resolved (synchronously)
+callbackA is added to the event loop's queue
+The second promise is resolved
+callbackC is added to the event loop's queue
+There is nothing left to do so the event loop is accessed, callbackA is first in the queue so it is executed, it doesn't return a promise so the intermediate promise for callbackB is immediately resolved synchronously, which appends callbackB to the event loop's queue.
+There is nothing left to do so the event loop is accessed, callbackC is first in the queue so it is executed.
+There is nothing left to do so the event loop is accessed, callbackB is first in the queue so it is executed.
+
+
+===========================================
+
+

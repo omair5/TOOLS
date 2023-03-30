@@ -1,0 +1,49 @@
+LINKS
+-----------------
+https://www.youtube.com/watch?v=MtiQMhzjQrY&list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ
+https://www.youtube.com/watch?v=ML5egqL3YFE
+https://www.youtube.com/watch?v=TuxmnyhPdhA&list=PLC3y8-rFHvwirqe1KHFCHJ0RqNuN61SJd
+https://www.youtube.com/watch?v=-WCFM6QOYSQ&list=PLxnSeqQVewBNZnDbkokG8QIyEAtMCzoq-
+https://www.youtube.com/watch?v=Flo268xRpV0
+https://www.youtube.com/watch?v=Flo268xRpV0&list=RDCMUCOxWrX5MIdXIeRNaXC3sqIg&start_radio=1
+https://www.youtube.com/watch?v=04BBgg8zgWo
+https://www.youtube.com/watch?v=OVNjsIto9xM
+https://www.youtube.com/watch?v=KT4dFLrlS7A
+https://www.youtube.com/watch?v=wfFw05TaBfM
+https://www.youtube.com/watch?v=TBZy-Rc-xX0
+https://www.youtube.com/watch?v=6wbnwsKrnYU
+https://www.youtube.com/watch?v=2NxjGhNjmA4
+https://www.youtube.com/watch?v=JBSUgDxICg8
+https://www.youtube.com/watch?v=cd3P3yXyx30
+https://www.youtube.com/watch?v=8Qfz5EFG9gQ
+https://www.youtube.com/watch?v=kCe1DDFy09I
+https://www.youtube.com/watch?v=x7X7CMgeExE
+https://www.youtube.com/watch?v=4L2dbS1TO28
+
+
+https://dev.to/ibrahima92/8-simple-steps-to-start-testing-react-apps-using-react-testing-library-and-jest-3922
+
+https://levelup.gitconnected.com/things-i-got-stuck-with-when-unit-testing-rest-apis-using-jest-and-react-testing-library-6dbfdbe70cf9
+
+https://www.youtube.com/watch?v=hyIacC653_A
+
+
+
+
+
+JEST MATCHER FUNCTIONS
+----------------------------
+https://learntechsystems.com/assertions-in-react-testing-library/
+
+
+JEST TUTORIALS
+----------------
+NET NINJA
+https://www.youtube.com/watch?v=TBZy-Rc-xX0&list=PL4cUxeGkcC9gm4_-5UsNmLqMosM-dzuvQ&index=13
+
+CODE EVOLUTION
+https://www.youtube.com/watch?v=TuxmnyhPdhA&list=PLC3y8-rFHvwirqe1KHFCHJ0RqNuN61SJd&index=42
+
+MOCK 
+----
+https://www.youtube.com/watch?v=kCe1DDFy09I
