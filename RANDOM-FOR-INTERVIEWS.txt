@@ -71,3 +71,8 @@ what is throttling?
 difference between forEach and Map? for of and Map? (map will create a new execution context for every callback function so basically it is a bit slow as compared to for of loop)
 
 difference between null and undefined?
+
+difference between promise.all vs promise.allsettled
+
+object.seal() vs object.freeze()
+

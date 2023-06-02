@@ -1,0 +1,43 @@
+FALLBACK FOR TURNCATING TEXT
+-----------------------------
+const container = {
+  backgroundColor: 'red',
+  maxWidth: '300px',
+  width: '100%',
+  border: '5px solid orange',
+  margin: 'auto',
+  whiteSpace: 'nowrap',
+  textOverflow: 'ellipsis',
+  overflow: 'hidden',
+  padding: '1rem'
+}
+
+DEFENSIVE CSS
+--------------
+https://ishadeed.com/article/defensive-css/
+
+
+CUSTOM SCROOL BAR
+------------------
+ wrapper: {
+        overflowY: 'scroll',
+        maxHeight: '735px',
+        overscrollBehaviorY: "contain",
+        overflowY: "auto",
+        scrollbarGutter: "stable",
+        overflowX: 'none',
+
+        "&::-webkit-scrollbar": {
+            width: "4px",
+        },
+        "&::-webkit-scrollbar-track": {
+            background: "#f1f1f1",
+        },
+        "&::-webkit-scrollbar-thumb": {
+            background: "#888",
+        },
+
+        "&::-webkit-scrollbar-thumb:hover": {
+            background: "#555",
+        },
+    }
